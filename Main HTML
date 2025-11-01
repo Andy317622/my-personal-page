@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8">
+  <title>我的個人網頁</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>嗨，我是侑成 👋</h1>
+  <p>這是我在 Lab2 裡建立的第一個個人網站！</p>
+
+  <h2>關於我</h2>
+  <ul>
+    <li>就讀輔大醫資系</li>
+    <li>喜歡攝影、資料分析與音樂</li>
+    <li>這是我的前端技術練習頁面</li>
+  </ul>
+
+  <footer>
+    <p>© 2025 Jun-An Chen. All rights reserved.</p>
+  </footer>
+</body>
+</html>
