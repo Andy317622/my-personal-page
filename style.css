@@ -46,3 +46,29 @@ button:hover {
   font-weight: bold;
   margin-top: 10px;
 }
+
+
+/* 🔹 按鈕閃爍動畫 */
+@keyframes glow {
+  0% { box-shadow: 0 0 5px #66ccff; }
+  50% { box-shadow: 0 0 20px #3399ff; }
+  100% { box-shadow: 0 0 5px #66ccff; }
+}
+
+/* 滑鼠移過去時發光 */
+button:hover {
+  background-color: #005b99;
+  animation: glow 1.2s infinite alternate;
+}
+
+/* 🔹 按鈕點擊時抖動 */
+@keyframes shake {
+  0%, 100% { transform: translateX(0); }
+  20%, 60% { transform: translateX(-4px); }
+  40%, 80% { transform: translateX(4px); }
+}
+
+/* 加入按下時的抖動效果 */
+button:active {
+  animation: shake 0.4s;
+}
