@@ -4,20 +4,31 @@
   <meta charset="UTF-8">
   <title>我的個人網頁</title>
   <link rel="stylesheet" href="style.css">
+  <!-- 載入 jQuery -->
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="script.js" defer></script>
 </head>
 <body>
-  <h1>嗨，我是侑成 👋</h1>
-  <p>這是我在 Lab2 裡建立的第一個個人網站！</p>
+  <header>
+    <h1>嗨，我是侑成 👋</h1>
+    <p>這是我在 Lab2 裡建立的第一個個人網站！</p>
+  </header>
 
-  <h2>關於我</h2>
-  <ul>
-    <li>就讀輔大醫資系</li>
-    <li>喜歡攝影、資料分析與音樂</li>
-    <li>這是我的前端技術練習頁面</li>
-  </ul>
+  <section class="intro">
+    <h2>關於我</h2>
+    <ul>
+      <li>就讀輔大醫資系</li>
+      <li>喜歡攝影、資料分析與音樂</li>
+      <li>這是我的前端技術練習頁面</li>
+    </ul>
+
+    <!-- 互動按鈕與訊息 -->
+    <button id="btn">點我看看驚喜 ✨</button>
+    <p id="msg" class="hidden">你發現了！祝 Lab2 順利完成 💪</p>
+  </section>
 
   <footer>
-    <p>© 2025 Yu-Cheng Chen. All rights reserved.</p>
+    <p>© 2025 Jun-An Chen. All rights reserved.</p>
   </footer>
 </body>
 </html>
